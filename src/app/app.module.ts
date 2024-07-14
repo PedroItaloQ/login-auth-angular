@@ -7,10 +7,10 @@ import { HttpClientModule } from '@angular/common/http';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { LoginComponent } from './login/login.component';
-import { MatCardModule } from '@angular/material/card'; // Importa MatCardModule
-import { MatFormFieldModule } from '@angular/material/form-field'; // Importa MatFormFieldModule
-import { MatInputModule } from '@angular/material/input'; // Importa MatInputModule
-import { MatButtonModule } from '@angular/material/button'; // Importa MatButtonModule
+import { MatCardModule } from '@angular/material/card';
+import { MatFormFieldModule } from '@angular/material/form-field';
+import { MatInputModule } from '@angular/material/input';
+import { MatButtonModule } from '@angular/material/button';
 
 @NgModule({
   declarations: [
@@ -19,14 +19,14 @@ import { MatButtonModule } from '@angular/material/button'; // Importa MatButton
   ],
   imports: [
     BrowserModule,
-    BrowserAnimationsModule, // Adiciona BrowserAnimationsModule
-    FormsModule, // Adiciona FormsModule
+    BrowserAnimationsModule,
+    FormsModule,
     HttpClientModule,
     AppRoutingModule,
-    MatCardModule, // Adiciona MatCardModule
-    MatFormFieldModule, // Adiciona MatFormFieldModule
-    MatInputModule, // Adiciona MatInputModule
-    MatButtonModule // Adiciona MatButtonModule
+    MatCardModule,
+    MatFormFieldModule,
+    MatInputModule,
+    MatButtonModule
   ],
   providers: [],
   bootstrap: [AppComponent]
